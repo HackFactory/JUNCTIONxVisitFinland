@@ -1,0 +1,20 @@
+PODS:
+  - FittedSheets (1.4.5)
+  - Magnetic (3.1.2)
+
+DEPENDENCIES:
+  - FittedSheets
+  - Magnetic
+
+SPEC REPOS:
+  trunk:
+    - FittedSheets
+    - Magnetic
+
+SPEC CHECKSUMS:
+  FittedSheets: 7f754c9f6fb4ea330cbc57c652b594255f2a6819
+  Magnetic: dc24bdaa891c55d7d5edcc8b5b3d8cd64465aed1
+
+PODFILE CHECKSUM: 3d81cc99aabd68dcadcaa005f0fb0786f255ae6c
+
+COCOAPODS: 1.8.3

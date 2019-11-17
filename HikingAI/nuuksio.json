@@ -1,0 +1,244 @@
+
+{
+    "view_points": [
+        {
+            "name": "Haukkalampi",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipM_T1wJ7cVZJapE-7hbbsioAni3KpelQ4sciY4J=w408-h306-k-no",
+            "location": [60.310923, 24.503278],  
+            "description": "Popular viewpoint with breathtaking nature. Good statring point for many of major trailheads"
+        },
+        {
+            "name": "Peat Dam",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipM72AuixFUyzWIREzz86VoibJnXwfCnmkWhifhn=w408-h306-k-no",
+            "location": [60.310332, 24.494425],  
+            "description": "New Peat Dam built by enthusiast"
+        },
+        {
+            "name": "Matalajärvi lintutorni",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNzvi5HH6nkyw7ezCdFQ_OUj-06rWH_EZkxfjwl=w408-h272-k-no",
+            "location": [60.249700, 24.698302],  
+            "description": " Nature observation lookout and tower"
+        },
+        {
+            "name": "Maahisenkierros näköalalava",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNmCJ1ALX-KF06aaICW1nUzJL7I1bdxicPL1KEj=w408-h306-k-no",
+            "location": [60.289683, 24.567775],  
+            "description": "Great Look-out-point not far from parking"
+        }
+        ],
+    "fireplaces": [
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.334473, 24.464517],  
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.309733, 24.506650],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.312592, 24.485403],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.325873, 24.492593],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.328848, 24.485954],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.316420, 24.452535],
+            "description": "Campfire site on the bank of the lake"
+          }, 
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.347856, 24.504526],
+            "description": "Campfire site on the bank of the lake"
+          }, 
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.309582, 24.494929],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.314053, 24.499155],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [60.311421, 24.487002],
+            "description": "Campfire site on the bank of the lake"
+          }
+      ],
+    "info_points": [
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.336665, 24.499463],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.321110, 24.455408],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.312500, 24.485015],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.309692, 24.506695],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information building",
+            "image": "",
+            "location": [60.309765, 24.514708],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.301298, 24.495058],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.295318, 24.514402],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [60.289338, 24.515335],
+            "description": "Information desk that provides relevant info"
+      }
+      ], 
+      "camping": [
+      {
+            "name": "Camping",
+            "image": "https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=CicKJXNlYXJjaC5nd3MtcHJvZC9tYXBzL3Jldmdlb19hbmRfZmV0Y2gSIAoSCVOuk8gf741GESvVqDdKbkC6KgoNAAAAABUAAAAAGgYI8AEQmAM&gl=FI",
+            "location": [60.325773, 24.494615],
+            "description": "Boiler meadow: bookable tent area"
+      },
+      {
+            "name": "Camping",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNbxUmD7l5ukRE4jlmfIYi_5yooFlMMBQDfPTMD=w480-h240-k-no",
+            "location": [60.312408, 24.485445],
+            "description": "Great Holma Tent Area"
+      },
+      {
+            "name": "Camping",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNbxUmD7l5ukRE4jlmfIYi_5yooFlMMBQDfPTMD=w480-h240-k-no",
+            "location": [60.302000, 24.490540],
+            "description": "Holma-Saarijärvi campsite"
+      },
+      {
+            "name": "Camping",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipM561U1HlVPvx-GCjTMUockeu8xLWkPGocA9IJe=w408-h816-k-no",
+            "location": [60.295502, 24.512828],
+            "description": "Varaustulipaikka"
+      }
+      ],
+      "toilets": [
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [60.325675, 24.493545],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [60.321332, 24.455058],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [60.312328, 24.485768],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [60.305823, 24.512725],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [60.294590, 24.502848],
+            "description": "Dry toilet"
+      }
+      ],
+      "parkings": [
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.311955, 24.446050],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.320957, 24.535709],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.289313, 24.514840],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.293457, 24.559083],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.309797, 24.520823],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.327135, 24.495605],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [60.320298, 24.521375],
+            "description": "Parking zone"
+        }
+        
+        ]
+}

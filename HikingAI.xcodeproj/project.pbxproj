@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A858AD7B35544D30811BF6A /* Pods_HikingAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AF9C4791752D2B1BD737DD /* Pods_HikingAI.framework */; };
+		BCAA6391238007BD00655C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA6390238007BD00655C43 /* AppDelegate.swift */; };
+		BCAA6393238007BD00655C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA6392238007BD00655C43 /* SceneDelegate.swift */; };
+		BCAA6398238007BD00655C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAA6396238007BD00655C43 /* Main.storyboard */; };
+		BCAA639A238007C000655C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAA6399238007C000655C43 /* Assets.xcassets */; };
+		BCAA639D238007C000655C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAA639B238007C000655C43 /* LaunchScreen.storyboard */; };
+		BCAA63AB2380307500655C43 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63AA2380307500655C43 /* ContainerViewController.swift */; };
+		BCAA63AD2380308B00655C43 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63AC2380308B00655C43 /* DataViewController.swift */; };
+		BCAA63AF2380309B00655C43 /* MovePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63AE2380309B00655C43 /* MovePageViewController.swift */; };
+		BCAA63B123803A9C00655C43 /* MagneticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63B023803A9C00655C43 /* MagneticViewController.swift */; };
+		BCAA63B323803C3B00655C43 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63B223803C3B00655C43 /* UIColor+Random.swift */; };
+		BCAA63B5238054AC00655C43 /* ColoredNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63B4238054AC00655C43 /* ColoredNode.swift */; };
+		BCAA63B72380986B00655C43 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63B62380986B00655C43 /* MapViewController.swift */; };
+		BCAA63B92380C0E600655C43 /* nuuksio.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAA63B82380C0E600655C43 /* nuuksio.json */; };
+		BCAA63BB2380E39100655C43 /* CustomAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63BA2380E39100655C43 /* CustomAnnotations.swift */; };
+		BCAA63BD2380E7FC00655C43 /* pallas.json in Resources */ = {isa = PBXBuildFile; fileRef = BCAA63BC2380E7FC00655C43 /* pallas.json */; };
+		BCAA63C3238107D000655C43 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA63C2238107D000655C43 /* Random.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FC9F811CB769BAB2B5AEC87 /* Pods-HikingAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikingAI.release.xcconfig"; path = "Target Support Files/Pods-HikingAI/Pods-HikingAI.release.xcconfig"; sourceTree = "<group>"; };
+		55AF9C4791752D2B1BD737DD /* Pods_HikingAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikingAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE4E069DA2C927287218E6 /* Pods-HikingAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikingAI.debug.xcconfig"; path = "Target Support Files/Pods-HikingAI/Pods-HikingAI.debug.xcconfig"; sourceTree = "<group>"; };
+		BCAA638D238007BD00655C43 /* Smart Route.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Route.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAA6390238007BD00655C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCAA6392238007BD00655C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCAA6397238007BD00655C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAA6399238007C000655C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAA639C238007C000655C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCAA639E238007C000655C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAA63AA2380307500655C43 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		BCAA63AC2380308B00655C43 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		BCAA63AE2380309B00655C43 /* MovePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovePageViewController.swift; sourceTree = "<group>"; };
+		BCAA63B023803A9C00655C43 /* MagneticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticViewController.swift; sourceTree = "<group>"; };
+		BCAA63B223803C3B00655C43 /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		BCAA63B4238054AC00655C43 /* ColoredNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredNode.swift; sourceTree = "<group>"; };
+		BCAA63B62380986B00655C43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BCAA63B82380C0E600655C43 /* nuuksio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nuuksio.json; sourceTree = "<group>"; };
+		BCAA63BA2380E39100655C43 /* CustomAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotations.swift; sourceTree = "<group>"; };
+		BCAA63BC2380E7FC00655C43 /* pallas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pallas.json; sourceTree = "<group>"; };
+		BCAA63C2238107D000655C43 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAA638A238007BD00655C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A858AD7B35544D30811BF6A /* Pods_HikingAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12503EDC3D15F22FBB65DC66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE4E069DA2C927287218E6 /* Pods-HikingAI.debug.xcconfig */,
+				4FC9F811CB769BAB2B5AEC87 /* Pods-HikingAI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81F8C5728BCD78B333C0B9F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55AF9C4791752D2B1BD737DD /* Pods_HikingAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAA6384238007BD00655C43 = {
+			isa = PBXGroup;
+			children = (
+				BCAA638F238007BD00655C43 /* HikingAI */,
+				BCAA638E238007BD00655C43 /* Products */,
+				12503EDC3D15F22FBB65DC66 /* Pods */,
+				81F8C5728BCD78B333C0B9F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAA638E238007BD00655C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAA638D238007BD00655C43 /* Smart Route.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAA638F238007BD00655C43 /* HikingAI */ = {
+			isa = PBXGroup;
+			children = (
+				BCAA63BC2380E7FC00655C43 /* pallas.json */,
+				BCAA63B82380C0E600655C43 /* nuuksio.json */,
+				BCAA6390238007BD00655C43 /* AppDelegate.swift */,
+				BCAA63AA2380307500655C43 /* ContainerViewController.swift */,
+				BCAA63AC2380308B00655C43 /* DataViewController.swift */,
+				BCAA63AE2380309B00655C43 /* MovePageViewController.swift */,
+				BCAA6392238007BD00655C43 /* SceneDelegate.swift */,
+				BCAA6396238007BD00655C43 /* Main.storyboard */,
+				BCAA6399238007C000655C43 /* Assets.xcassets */,
+				BCAA639B238007C000655C43 /* LaunchScreen.storyboard */,
+				BCAA639E238007C000655C43 /* Info.plist */,
+				BCAA63B023803A9C00655C43 /* MagneticViewController.swift */,
+				BCAA63B223803C3B00655C43 /* UIColor+Random.swift */,
+				BCAA63B4238054AC00655C43 /* ColoredNode.swift */,
+				BCAA63B62380986B00655C43 /* MapViewController.swift */,
+				BCAA63BA2380E39100655C43 /* CustomAnnotations.swift */,
+				BCAA63C2238107D000655C43 /* Random.swift */,
+			);
+			path = HikingAI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAA638C238007BD00655C43 /* HikingAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAA63A1238007C000655C43 /* Build configuration list for PBXNativeTarget "HikingAI" */;
+			buildPhases = (
+				3A63D9082EC0215C3ECD814E /* [CP] Check Pods Manifest.lock */,
+				BCAA6389238007BD00655C43 /* Sources */,
+				BCAA638A238007BD00655C43 /* Frameworks */,
+				BCAA638B238007BD00655C43 /* Resources */,
+				3DB2E6FA029ECB2802707E72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikingAI;
+			productName = HikingAI;
+			productReference = BCAA638D238007BD00655C43 /* Smart Route.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAA6385238007BD00655C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Yaroslav Spirin";
+				TargetAttributes = {
+					BCAA638C238007BD00655C43 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BCAA6388238007BD00655C43 /* Build configuration list for PBXProject "HikingAI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAA6384238007BD00655C43;
+			productRefGroup = BCAA638E238007BD00655C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAA638C238007BD00655C43 /* HikingAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAA638B238007BD00655C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAA639D238007C000655C43 /* LaunchScreen.storyboard in Resources */,
+				BCAA639A238007C000655C43 /* Assets.xcassets in Resources */,
+				BCAA63BD2380E7FC00655C43 /* pallas.json in Resources */,
+				BCAA63B92380C0E600655C43 /* nuuksio.json in Resources */,
+				BCAA6398238007BD00655C43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A63D9082EC0215C3ECD814E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HikingAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB2E6FA029ECB2802707E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HikingAI/Pods-HikingAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HikingAI/Pods-HikingAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HikingAI/Pods-HikingAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAA6389238007BD00655C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAA63B123803A9C00655C43 /* MagneticViewController.swift in Sources */,
+				BCAA63BB2380E39100655C43 /* CustomAnnotations.swift in Sources */,
+				BCAA63AD2380308B00655C43 /* DataViewController.swift in Sources */,
+				BCAA63B5238054AC00655C43 /* ColoredNode.swift in Sources */,
+				BCAA6391238007BD00655C43 /* AppDelegate.swift in Sources */,
+				BCAA63B72380986B00655C43 /* MapViewController.swift in Sources */,
+				BCAA63B323803C3B00655C43 /* UIColor+Random.swift in Sources */,
+				BCAA63AB2380307500655C43 /* ContainerViewController.swift in Sources */,
+				BCAA63AF2380309B00655C43 /* MovePageViewController.swift in Sources */,
+				BCAA6393238007BD00655C43 /* SceneDelegate.swift in Sources */,
+				BCAA63C3238107D000655C43 /* Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCAA6396238007BD00655C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAA6397238007BD00655C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAA639B238007C000655C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAA639C238007C000655C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAA639F238007C000655C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAA63A0238007C000655C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAA63A2238007C000655C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CE4E069DA2C927287218E6 /* Pods-HikingAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7544MQP9KA;
+				INFOPLIST_FILE = HikingAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mountain-Viewer.HikingAI";
+				PRODUCT_NAME = "Smart Route";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCAA63A3238007C000655C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC9F811CB769BAB2B5AEC87 /* Pods-HikingAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7544MQP9KA;
+				INFOPLIST_FILE = HikingAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mountain-Viewer.HikingAI";
+				PRODUCT_NAME = "Smart Route";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAA6388238007BD00655C43 /* Build configuration list for PBXProject "HikingAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAA639F238007C000655C43 /* Debug */,
+				BCAA63A0238007C000655C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAA63A1238007C000655C43 /* Build configuration list for PBXNativeTarget "HikingAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAA63A2238007C000655C43 /* Debug */,
+				BCAA63A3238007C000655C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAA6385238007BD00655C43 /* Project object */;
+}

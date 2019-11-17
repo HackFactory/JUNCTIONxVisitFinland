@@ -1,0 +1,382 @@
+
+{
+    "view_points": [
+        {
+            "name": "Sioskoski tar tomb",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMZNKZjP7yN00TLjNQ61kpf2KH0br_YFhveazAJ=w408-h725-k-no",
+            "location": [68.316730, 23.978840],  
+            "description": "In addition to the statutory protected remains of remnants and buildings, the map level also shows younger cultural heritage"
+        },
+        {
+            "name": "Pyhäjoki nature trail observation deck",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipM72AuixFUyzWIREzz86VoibJnXwfCnmkWhifhn=w408-h306-k-no",
+            "location": [68.021603, 24.126930],  
+            "description": "Look-out-point"
+        },
+        {
+            "name": "Pallaslompolo moth",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNF4KgoB_EMrucN6EbK17XB2gw11vq2UecZKvvO=w408-h306-k-no",
+            "location": [68.000135, 24.203513],  
+            "description": "Nature observation lookout"
+        },
+        {
+            "name": "Lusmavaara Residence",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNdbRWWJhcxXHnfQ8htmeHpWJHMUqsYttDlWGWU=w408-h306-k-no",
+            "location": [68.019952, 24.289478],  
+            "description": "Great Look-out-point not far from parking"
+        },
+        {
+            "name": "Taaromavuoma roommate residue 1",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNdbRWWJhcxXHnfQ8htmeHpWJHMUqsYttDlWGWU=w408-h306-k-no",
+            "location": [67.813292, 24.400892],  
+            "description": "Great Look-out-point not far from parking"
+        },
+        {
+            "name": "Kukasjärvi Residence",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNdbRWWJhcxXHnfQ8htmeHpWJHMUqsYttDlWGWU=w408-h306-k-no",
+            "location": [67.705860, 24.344872],  
+            "description": "Great Look-out-point not far from parking"
+        },
+        {
+            "name": "Summer River Catching Pit 4 remnant",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipPa7-Qu5HJswHJqFoIzDGDDgN24sEZkKcGKlhxq=w408-h544-k-no",
+            "location": [67.604673, 24.206463],  
+            "description": "Great Look-out-point not far from parking"
+        }
+        ],
+    "fireplaces": [
+          {
+            "name": "Campfire site",
+            "image": "",
+            "location": [67.582590, 24.227090],  
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [67.615317, 24.254693],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [67.622793, 24.557708],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [67.950920, 24.162932],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [67.968443, 24.190308],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.026995, 24.004938],
+            "description": "Campfire site on the bank of the lake"
+          }, 
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.042082, 24.078672],
+            "description": "Campfire site on the bank of the lake"
+          }, 
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.108488, 24.049422],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.129860, 24.055692],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.138430, 24.040213],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.218182, 23.949070],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.263683, 24.037533],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.281930, 23.868887],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.298028, 23.817868],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.342457, 23.720415],
+            "description": "Campfire site on the bank of the lake"
+          },
+          {
+            "name": "Campfire site",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMh1QcMsoSrAyxDZS5_ei_dUjy1RVI6y5GIO3Eh=w408-h306-k-no",
+            "location": [68.316807, 23.975388],
+            "description": "Campfire site on the bank of the lake"
+          }
+      ],
+    "info_points": [
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [68.353140, 23.733070],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [68.269283, 24.028015],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [68.218087, 23.945418],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [68.127570, 24.123433],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information building",
+            "image": "",
+            "location": [68.041028, 24.140438],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.968582, 24.188663],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.923440, 24.151167],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.739873, 24.314490],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.694697, 24.368537],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.547478, 24.265992],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.587575, 24.473610],
+            "description": "Information desk that provides relevant info"
+      },
+      {
+            "name": "Information point",
+            "image": "",
+            "location": [67.589568, 24.202862],
+            "description": "Information desk that provides relevant info"
+      },
+
+      ], 
+      "camping": [
+      {
+            "name": "Camping",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMSNaNkd_wEcbyERtbgw6MIn5XB1O4psVoFcAtq=w408-h306-k-no",
+            "location": [68.218115, 23.942653],
+            "description": "Hannukuru camping area"
+      }
+      ],
+      "toilets": [
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.640665, 24.425173],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.684302, 24.372728],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.738905, 24.316488],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.597088, 24.449230],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.567337, 24.262810],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.802182, 24.194863],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.955435, 24.145713],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [67.988473, 24.126797],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.012688, 24.248820],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.041268, 24.140362],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.108683, 24.050253],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.185745, 23.993392],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.328343, 23.879653],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.400507, 23.668622],
+            "description": "Dry toilet"
+      },
+      {
+            "name": "Toilet",
+            "image": "",
+            "location": [68.206347, 23.639998],
+            "description": "Dry toilet"
+      } 
+      ],
+      "parkings": [
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.603628, 24.219502],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.589832, 24.202867],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.647120, 24.571260],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.694882, 24.368823],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.704757, 24.123865],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.739025, 24.316897],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.743080, 24.086288],
+            "description": "Parking zone"
+        }, 
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.890975, 23.982947],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [67.954995, 24.045260],
+            "description": "Parking zone"
+        },
+        {
+            "name": "Parking",
+            "image": "",
+            "location": [68.395152, 23.665825],
+            "description": "Parking zone"
+        }
+        ]
+}

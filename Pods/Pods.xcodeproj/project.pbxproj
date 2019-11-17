@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A13E270E83F531BFBEFF2DD7107A155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		14A6947FBB0996EC9CDBEBB6EB5FD63E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7760DFA4C2A9B8BCD760279E5351B996 /* Extensions.swift */; };
+		1B87DAD9660487FB9A81215800183124 /* SheetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80BCC2861A4516C1B33051286D22D9 /* SheetSize.swift */; };
+		1EE501280366ABB396DDCED6CDA23995 /* SKMultilineLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118502F2E3E3E3A5DBE49DF79187DCA /* SKMultilineLabelNode.swift */; };
+		1F063CA2EE7C2B15EAC79B0FAF930D84 /* Pods-HikingAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95409D20DB3143954C723E4D68391F5D /* Pods-HikingAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325DFEDD1241C853FB0BAEAC5CC463EF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A96F4649404CD421D7794E92417F63 /* Node.swift */; };
+		6BAF08477B9E37B296BC3DD78B1C298D /* Magnetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041BD833910C2D70F0E768D80FD2297 /* Magnetic.swift */; };
+		8806921DD4A51C4C41C9B154519A082B /* InitialTouchPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0274306DC2893E5BF29D283161FA96 /* InitialTouchPanGestureRecognizer.swift */; };
+		8C91E1421BA7BE9A02E902B5AB8F6484 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672746A4AA6E52091CCDCC3B4700D69 /* SheetViewController.swift */; };
+		96F73A745FD2532410C8DFC5C036BACD /* FittedSheets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B34D9E0C6E346CD54383D999C02078A /* FittedSheets-dummy.m */; };
+		B01909FD69E6DDD26A8C82A6C615A301 /* Magnetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6E916EA5A2B900E8045224B527D476 /* Magnetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02EE2F09A5DA3B1AB3E2D59B1D15ED9 /* FittedSheets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295E0061BD16CD08108B176CE2FA048C /* FittedSheets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B913EDBD95A2C27F055D19EFB20169 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED8CB40DF18B020AB4ED16CCF23665 /* UIViewControllerExtension.swift */; };
+		B8629D57D7F0E60F872E17B579F8B3C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B9A37643AC4FB52FE952DC1CABD809EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C39A7C096337CF66276A51E9E11B213D /* Pods-HikingAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A77C748B1999026F5A95CD71E91D3A /* Pods-HikingAI-dummy.m */; };
+		EC1143DAD5ED88572995113DD1D255C6 /* Yalta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F223FBDA213F125A3A6B27D65DD1B544 /* Yalta.swift */; };
+		EE1ED0C44E4B07132B5C5AF92CFB15C3 /* Magnetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F0F2CF41956C9D018942983FD92C7 /* Magnetic-dummy.m */; };
+		FCCDBA88FF405BEF4AE26DCC94F8F242 /* MagneticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC55FC93E979E9BD4EAFDAB417C015 /* MagneticView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A095B8D13EE3A81B562C51CAA5DADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AFB0A3758061A70ADF6F9509DC1BD7;
+			remoteInfo = Magnetic;
+		};
+		9726ECF2919D98057397191378EEB986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71C614CBF9B1B690FE941C4DF44D040;
+			remoteInfo = FittedSheets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0672746A4AA6E52091CCDCC3B4700D69 /* SheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SheetViewController.swift; path = FittedSheetsPod/SheetViewController.swift; sourceTree = "<group>"; };
+		11A77C748B1999026F5A95CD71E91D3A /* Pods-HikingAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HikingAI-dummy.m"; sourceTree = "<group>"; };
+		19ED8CB40DF18B020AB4ED16CCF23665 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtension.swift; path = FittedSheetsPod/UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		2041BD833910C2D70F0E768D80FD2297 /* Magnetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Magnetic.swift; path = Sources/Magnetic.swift; sourceTree = "<group>"; };
+		2118502F2E3E3E3A5DBE49DF79187DCA /* SKMultilineLabelNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMultilineLabelNode.swift; path = Sources/SKMultilineLabelNode.swift; sourceTree = "<group>"; };
+		21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FittedSheets.framework; path = FittedSheets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		262E2D25941562869E7E09584CA2C2D4 /* FittedSheets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FittedSheets-Info.plist"; sourceTree = "<group>"; };
+		26DA6EA6F4253960B2F8030B729738B2 /* Magnetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Magnetic.xcconfig; sourceTree = "<group>"; };
+		295E0061BD16CD08108B176CE2FA048C /* FittedSheets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FittedSheets-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		341812BC5A1070C5007CA4CC8D82A977 /* Pods-HikingAI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HikingAI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39065C86389098A3EDC5D529D8EE22FE /* Magnetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Magnetic.modulemap; sourceTree = "<group>"; };
+		4F320F2A1A57E6B68659E4223E5331E0 /* Pods-HikingAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HikingAI-Info.plist"; sourceTree = "<group>"; };
+		4F36B2598AD20CB21E0C426AF9904AD2 /* Pods_HikingAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HikingAI.framework; path = "Pods-HikingAI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59049034B94FDC11256BECE6838C39DD /* FittedSheets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FittedSheets.modulemap; sourceTree = "<group>"; };
+		5B34D9E0C6E346CD54383D999C02078A /* FittedSheets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FittedSheets-dummy.m"; sourceTree = "<group>"; };
+		6E0F0F2CF41956C9D018942983FD92C7 /* Magnetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Magnetic-dummy.m"; sourceTree = "<group>"; };
+		70D64649FF7B9EA77671237850A1F118 /* FittedSheets.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FittedSheets.xcconfig; sourceTree = "<group>"; };
+		7760DFA4C2A9B8BCD760279E5351B996 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		79B4D342C32C17F8A4C4509DDC8B2A35 /* Pods-HikingAI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HikingAI-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C0274306DC2893E5BF29D283161FA96 /* InitialTouchPanGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitialTouchPanGestureRecognizer.swift; path = FittedSheetsPod/InitialTouchPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		92FC55FC93E979E9BD4EAFDAB417C015 /* MagneticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagneticView.swift; path = Sources/MagneticView.swift; sourceTree = "<group>"; };
+		95409D20DB3143954C723E4D68391F5D /* Pods-HikingAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HikingAI-umbrella.h"; sourceTree = "<group>"; };
+		9809694FD9FDD2ED8710D1E7572F4651 /* Pods-HikingAI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HikingAI-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9BF7314055F0AE61548FE93379C5BDC /* Pods-HikingAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HikingAI.release.xcconfig"; sourceTree = "<group>"; };
+		B269210218189FC5E2A1E8DBB6201AE9 /* Magnetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Magnetic.framework; path = Magnetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B317F4120CCD4C4701CE14F1AA2ECE24 /* FittedSheets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FittedSheets-prefix.pch"; sourceTree = "<group>"; };
+		BA80BCC2861A4516C1B33051286D22D9 /* SheetSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SheetSize.swift; path = FittedSheetsPod/SheetSize.swift; sourceTree = "<group>"; };
+		BDB0B5094F4D87B8FAA39DE07E48F5D1 /* Magnetic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Magnetic-Info.plist"; sourceTree = "<group>"; };
+		BFCF085EED0BD85BC622D8389387826E /* Pods-HikingAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HikingAI.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3B0D6A9A162CB07189B6794D10B449 /* Magnetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-prefix.pch"; sourceTree = "<group>"; };
+		EC673C6E5E95B1A25241DC712772B205 /* Pods-HikingAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HikingAI.modulemap"; sourceTree = "<group>"; };
+		F1A96F4649404CD421D7794E92417F63 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		F223FBDA213F125A3A6B27D65DD1B544 /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
+		FC6E916EA5A2B900E8045224B527D476 /* Magnetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Magnetic-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D852FD7260E08D3981E0882D02919E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A37643AC4FB52FE952DC1CABD809EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDBCB6F363E663166B26D8A81A774C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8629D57D7F0E60F872E17B579F8B3C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B59348D69E498A22A26F6B619F63AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A13E270E83F531BFBEFF2DD7107A155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DDF8856DB7FE699EB4353117A29B863 /* Pods-HikingAI */ = {
+			isa = PBXGroup;
+			children = (
+				EC673C6E5E95B1A25241DC712772B205 /* Pods-HikingAI.modulemap */,
+				341812BC5A1070C5007CA4CC8D82A977 /* Pods-HikingAI-acknowledgements.markdown */,
+				79B4D342C32C17F8A4C4509DDC8B2A35 /* Pods-HikingAI-acknowledgements.plist */,
+				11A77C748B1999026F5A95CD71E91D3A /* Pods-HikingAI-dummy.m */,
+				9809694FD9FDD2ED8710D1E7572F4651 /* Pods-HikingAI-frameworks.sh */,
+				4F320F2A1A57E6B68659E4223E5331E0 /* Pods-HikingAI-Info.plist */,
+				95409D20DB3143954C723E4D68391F5D /* Pods-HikingAI-umbrella.h */,
+				BFCF085EED0BD85BC622D8389387826E /* Pods-HikingAI.debug.xcconfig */,
+				A9BF7314055F0AE61548FE93379C5BDC /* Pods-HikingAI.release.xcconfig */,
+			);
+			name = "Pods-HikingAI";
+			path = "Target Support Files/Pods-HikingAI";
+			sourceTree = "<group>";
+		};
+		54C5E4F422295311ABE9D7467C60961B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39065C86389098A3EDC5D529D8EE22FE /* Magnetic.modulemap */,
+				26DA6EA6F4253960B2F8030B729738B2 /* Magnetic.xcconfig */,
+				6E0F0F2CF41956C9D018942983FD92C7 /* Magnetic-dummy.m */,
+				BDB0B5094F4D87B8FAA39DE07E48F5D1 /* Magnetic-Info.plist */,
+				CD3B0D6A9A162CB07189B6794D10B449 /* Magnetic-prefix.pch */,
+				FC6E916EA5A2B900E8045224B527D476 /* Magnetic-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Magnetic";
+			sourceTree = "<group>";
+		};
+		61E488B706F88DE5B0F4CB3D0330FCC8 /* FittedSheets */ = {
+			isa = PBXGroup;
+			children = (
+				7C0274306DC2893E5BF29D283161FA96 /* InitialTouchPanGestureRecognizer.swift */,
+				BA80BCC2861A4516C1B33051286D22D9 /* SheetSize.swift */,
+				0672746A4AA6E52091CCDCC3B4700D69 /* SheetViewController.swift */,
+				19ED8CB40DF18B020AB4ED16CCF23665 /* UIViewControllerExtension.swift */,
+				F223FBDA213F125A3A6B27D65DD1B544 /* Yalta.swift */,
+				7A31DD190497F020A98B8A0193CB5114 /* Support Files */,
+			);
+			name = FittedSheets;
+			path = FittedSheets;
+			sourceTree = "<group>";
+		};
+		624CDF0A35378219A882C47FA4403AA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF8856DB7FE699EB4353117A29B863 /* Pods-HikingAI */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A31DD190497F020A98B8A0193CB5114 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59049034B94FDC11256BECE6838C39DD /* FittedSheets.modulemap */,
+				70D64649FF7B9EA77671237850A1F118 /* FittedSheets.xcconfig */,
+				5B34D9E0C6E346CD54383D999C02078A /* FittedSheets-dummy.m */,
+				262E2D25941562869E7E09584CA2C2D4 /* FittedSheets-Info.plist */,
+				B317F4120CCD4C4701CE14F1AA2ECE24 /* FittedSheets-prefix.pch */,
+				295E0061BD16CD08108B176CE2FA048C /* FittedSheets-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FittedSheets";
+			sourceTree = "<group>";
+		};
+		AF90AA20C5F551DF7BC39AA02E2C9BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */,
+				B269210218189FC5E2A1E8DBB6201AE9 /* Magnetic.framework */,
+				4F36B2598AD20CB21E0C426AF9904AD2 /* Pods_HikingAI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B92621B5BE3C490908C61CF35EDA2692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61E488B706F88DE5B0F4CB3D0330FCC8 /* FittedSheets */,
+				C3EB04242BE5C4AEE412ECC8F81633D2 /* Magnetic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3EB04242BE5C4AEE412ECC8F81633D2 /* Magnetic */ = {
+			isa = PBXGroup;
+			children = (
+				7760DFA4C2A9B8BCD760279E5351B996 /* Extensions.swift */,
+				2041BD833910C2D70F0E768D80FD2297 /* Magnetic.swift */,
+				92FC55FC93E979E9BD4EAFDAB417C015 /* MagneticView.swift */,
+				F1A96F4649404CD421D7794E92417F63 /* Node.swift */,
+				2118502F2E3E3E3A5DBE49DF79187DCA /* SKMultilineLabelNode.swift */,
+				54C5E4F422295311ABE9D7467C60961B /* Support Files */,
+			);
+			name = Magnetic;
+			path = Magnetic;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B92621B5BE3C490908C61CF35EDA2692 /* Pods */,
+				AF90AA20C5F551DF7BC39AA02E2C9BEA /* Products */,
+				624CDF0A35378219A882C47FA4403AA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C87E2108FF589EA4FFF95C728EEDF08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02EE2F09A5DA3B1AB3E2D59B1D15ED9 /* FittedSheets-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FAF0EDCC6CA02AF68A193FB59BD4B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F063CA2EE7C2B15EAC79B0FAF930D84 /* Pods-HikingAI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4D05279A21669B26AFA1DF3E001924 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01909FD69E6DDD26A8C82A6C615A301 /* Magnetic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0848427E893888E8418ED803973B2E41 /* Pods-HikingAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD38D6B7AD4209288D5E070E95666029 /* Build configuration list for PBXNativeTarget "Pods-HikingAI" */;
+			buildPhases = (
+				A3FAF0EDCC6CA02AF68A193FB59BD4B6 /* Headers */,
+				1B700EE3F865CEA82BFF4C6303C8A8F7 /* Sources */,
+				17D852FD7260E08D3981E0882D02919E /* Frameworks */,
+				6BF239A69DDE2E2693FD850093690EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7722355BA32D2EC40D385B82084DEAC1 /* PBXTargetDependency */,
+				E8AAFD1F331D051870840E402CB752DE /* PBXTargetDependency */,
+			);
+			name = "Pods-HikingAI";
+			productName = "Pods-HikingAI";
+			productReference = 4F36B2598AD20CB21E0C426AF9904AD2 /* Pods_HikingAI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19AFB0A3758061A70ADF6F9509DC1BD7 /* Magnetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F628DAE0B27651EB5BB292C1EC9DC0DF /* Build configuration list for PBXNativeTarget "Magnetic" */;
+			buildPhases = (
+				FE4D05279A21669B26AFA1DF3E001924 /* Headers */,
+				A14B9B3C40456ACB2FAE3B1BC48D6ED1 /* Sources */,
+				69B59348D69E498A22A26F6B619F63AC /* Frameworks */,
+				91ECDE3826C9C86F7A97C2BB945F954C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnetic;
+			productName = Magnetic;
+			productReference = B269210218189FC5E2A1E8DBB6201AE9 /* Magnetic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92109E8BE9266A2E33138970AF23418E /* Build configuration list for PBXNativeTarget "FittedSheets" */;
+			buildPhases = (
+				2C87E2108FF589EA4FFF95C728EEDF08 /* Headers */,
+				7CAEFE96B248DF308875D00388552D54 /* Sources */,
+				62EDBCB6F363E663166B26D8A81A774C /* Frameworks */,
+				60CD4BBA8709FAC87CFCF8CC19B6647D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FittedSheets;
+			productName = FittedSheets;
+			productReference = 21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF90AA20C5F551DF7BC39AA02E2C9BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */,
+				19AFB0A3758061A70ADF6F9509DC1BD7 /* Magnetic */,
+				0848427E893888E8418ED803973B2E41 /* Pods-HikingAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CD4BBA8709FAC87CFCF8CC19B6647D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF239A69DDE2E2693FD850093690EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ECDE3826C9C86F7A97C2BB945F954C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B700EE3F865CEA82BFF4C6303C8A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39A7C096337CF66276A51E9E11B213D /* Pods-HikingAI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAEFE96B248DF308875D00388552D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F73A745FD2532410C8DFC5C036BACD /* FittedSheets-dummy.m in Sources */,
+				8806921DD4A51C4C41C9B154519A082B /* InitialTouchPanGestureRecognizer.swift in Sources */,
+				1B87DAD9660487FB9A81215800183124 /* SheetSize.swift in Sources */,
+				8C91E1421BA7BE9A02E902B5AB8F6484 /* SheetViewController.swift in Sources */,
+				B1B913EDBD95A2C27F055D19EFB20169 /* UIViewControllerExtension.swift in Sources */,
+				EC1143DAD5ED88572995113DD1D255C6 /* Yalta.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14B9B3C40456ACB2FAE3B1BC48D6ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A6947FBB0996EC9CDBEBB6EB5FD63E /* Extensions.swift in Sources */,
+				EE1ED0C44E4B07132B5C5AF92CFB15C3 /* Magnetic-dummy.m in Sources */,
+				6BAF08477B9E37B296BC3DD78B1C298D /* Magnetic.swift in Sources */,
+				FCCDBA88FF405BEF4AE26DCC94F8F242 /* MagneticView.swift in Sources */,
+				325DFEDD1241C853FB0BAEAC5CC463EF /* Node.swift in Sources */,
+				1EE501280366ABB396DDCED6CDA23995 /* SKMultilineLabelNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7722355BA32D2EC40D385B82084DEAC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FittedSheets;
+			target = B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */;
+			targetProxy = 9726ECF2919D98057397191378EEB986 /* PBXContainerItemProxy */;
+		};
+		E8AAFD1F331D051870840E402CB752DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Magnetic;
+			target = 19AFB0A3758061A70ADF6F9509DC1BD7 /* Magnetic */;
+			targetProxy = 4A095B8D13EE3A81B562C51CAA5DADCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0052F5614D5ECAFF5255CE93A1D99A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BF7314055F0AE61548FE93379C5BDC /* Pods-HikingAI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HikingAI/Pods-HikingAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HikingAI/Pods-HikingAI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4675760FA93AB8C69ADDFA654C2A73FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D64649FF7B9EA77671237850A1F118 /* FittedSheets.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FittedSheets/FittedSheets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FittedSheets/FittedSheets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FittedSheets/FittedSheets.modulemap";
+				PRODUCT_MODULE_NAME = FittedSheets;
+				PRODUCT_NAME = FittedSheets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D5819F55387DDF226D0F42884675688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DA6EA6F4253960B2F8030B729738B2 /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Magnetic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				PRODUCT_MODULE_NAME = Magnetic;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8EC39CB33F62F86B998D52C75C59CA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DA6EA6F4253960B2F8030B729738B2 /* Magnetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Magnetic/Magnetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Magnetic/Magnetic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Magnetic/Magnetic.modulemap";
+				PRODUCT_MODULE_NAME = Magnetic;
+				PRODUCT_NAME = Magnetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B801C7F7EAB1B8E6F0F62F8EE2649BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCF085EED0BD85BC622D8389387826E /* Pods-HikingAI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HikingAI/Pods-HikingAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HikingAI/Pods-HikingAI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC25C7A10A94295F64195BBC1075E972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D64649FF7B9EA77671237850A1F118 /* FittedSheets.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FittedSheets/FittedSheets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FittedSheets/FittedSheets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FittedSheets/FittedSheets.modulemap";
+				PRODUCT_MODULE_NAME = FittedSheets;
+				PRODUCT_NAME = FittedSheets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92109E8BE9266A2E33138970AF23418E /* Build configuration list for PBXNativeTarget "FittedSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC25C7A10A94295F64195BBC1075E972 /* Debug */,
+				4675760FA93AB8C69ADDFA654C2A73FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD38D6B7AD4209288D5E070E95666029 /* Build configuration list for PBXNativeTarget "Pods-HikingAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B801C7F7EAB1B8E6F0F62F8EE2649BE3 /* Debug */,
+				0052F5614D5ECAFF5255CE93A1D99A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F628DAE0B27651EB5BB292C1EC9DC0DF /* Build configuration list for PBXNativeTarget "Magnetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5819F55387DDF226D0F42884675688 /* Debug */,
+				8EC39CB33F62F86B998D52C75C59CA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
